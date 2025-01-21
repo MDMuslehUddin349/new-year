@@ -1,0 +1,179 @@
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+.inter-normal {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* bg-head-section */
+.bg-head {
+    background-image: url(../images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px auto;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+
+    background: linear-gradientrgb(7, 2, 17) rgba(7, 2, 17, 0);
+
+
+}
+
+.bg-head p {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.bg-head h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    */ letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* hero-section */
+.hero {
+    width: 802.9px;
+    height: 806px;
+    text-align: center;
+    margin: 50px 400px;
+}
+
+.hero h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.hero h3 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: auto;
+}
+
+.hero-img {
+    width: 802.9px;
+    height: 500px;
+    background: url(happy-new-year-3d-letters-sign-coloful-background-blurred-fireworks-2024-new-year-party);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* mid-night-section */
+.mid-night {
+    background-image: url(../images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin: 80px auto;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background: #070211FF #07021100;
+    
+}
+
+.mid-night-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-night-a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.mid-night-a h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    /* font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%; */
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.mid-night-a p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    /* font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%; */
+    text-align: left;
+    margin-top: 15px;
+}
+
+.mid-night-a button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    
+    margin-right: 450px;
+}
+
+.mid-night-b img {
+    width: 349.16px;
+    height: 464.65px;
+    background: none;
+}
