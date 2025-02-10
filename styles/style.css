@@ -3,9 +3,6 @@
     font-weight: 900;
     font-style: normal;
 }
-
-
-
 .inter-normal {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -21,14 +18,12 @@
     height: 600px;
     border-radius: 16px;
     margin: 50px auto;
-
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-
     background: linear-gradient(rgb(7, 2, 17) rgba(7, 2, 17, 0)) 100%;
 
 }
@@ -36,7 +31,7 @@
 .bg-head p {
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0%;
@@ -46,14 +41,13 @@
 .bg-head h1 {
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: 900;
     line-height: 95px;
-    */ letter-spacing: 0%;
+    letter-spacing: 0%;
     text-align: center;
     margin-top: 10px;
 }
-
 /* hero-section */
 .hero {
     width: 802.9px;
@@ -65,7 +59,7 @@
 .hero h1 {
     color: rgb(255, 0, 0);
     font-family: Inter;
-    font-size: 88px;
+    font-size: 5.5rem;
     font-weight: 700;
     line-height: 107px;
     letter-spacing: 0%;
@@ -77,7 +71,7 @@
 .hero h3 {
     color: rgb(255, 0, 0);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 0%;
@@ -89,7 +83,7 @@
 .hero h2 {
     color: rgb(7, 2, 17);
     font-family: Inter;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 58px;
     letter-spacing: 0%;
@@ -107,6 +101,9 @@
     border: 2px dashed wheat;
     margin-top: 20px;
 }
+.hero-img img{
+    width: 100%;
+}
 
 /* mid-night-section */
 .mid-night {
@@ -119,9 +116,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     border-radius: 16px;
-
     background: linear-gradient(#070211FF #07021100);
 
 }
@@ -135,7 +130,6 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-
     justify-content: center;
     margin-left: 100px;
 }
@@ -143,10 +137,7 @@
 .mid-night-a h1 {
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 64px;
-    /* font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 11%; */
+    font-size: 4rem;
     text-align: left;
     margin-bottom: 15px;
 }
@@ -154,10 +145,7 @@
 .mid-night-a p {
     color: rgba(255, 255, 255, 0.8);
     font-family: Inter;
-    font-size: 18px;
-    /* font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0%; */
+    font-size: 1.12rem;
     text-align: left;
     margin-top: 15px;
 }
@@ -165,7 +153,7 @@
 .mid-night-a button {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0%;
@@ -183,12 +171,8 @@
     background: none;
     margin-top: 60px;
     margin-right: 60px;
-
     background: radial-gradient(#690B02FF #8F4941FF #B18079FF #CDADA8FF #E3D1CDFF #F2EAE7FF #FCFAF6FF #FFFFFCFF)
-        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
     ;
-
-
 }
 
 /* join-section */
@@ -197,7 +181,6 @@
     height: 482px;
     border-radius: 16px;
     margin: 80px auto;
-
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
     display: flex;
     flex-direction: column;
@@ -210,15 +193,13 @@
     width: 549px;
     height: 168px;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 56px;
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 48px;
-
-
 }
 
 .join .place p {
@@ -233,7 +214,7 @@
 .join .btn-n button {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0%;
@@ -242,9 +223,7 @@
     padding: 16px 32px 16px 32px;
     border-radius: 8px;
     border: none;
-
     background: rgb(255, 0, 0);
-
 }
 
 /* section-comming-soon */
@@ -255,14 +234,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
 }
 
 .comming-soon .content-a {
     width: 393px;
     height: 255px;
-    /* display: flex; */
     flex-direction: column;
     align-items: center;
     text-align: left;
@@ -275,7 +251,7 @@
 .comming-soon .content-a>h3 {
     color: rgb(255, 0, 0);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 0%;
@@ -288,7 +264,7 @@
 .comming-soon .content-a h1 {
     color: rgb(7, 2, 17);
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 60px;
     letter-spacing: 0%;
@@ -300,7 +276,7 @@
 .comming-soon p {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0%;
@@ -320,11 +296,7 @@
     box-sizing: border-box;
     border: 15px solid rgb(255, 0, 0);
     border-radius: 50%;
-    /* object-fit: contain; */
     padding: 25px;
-
-
-
 }
 
 .content-b .head {
@@ -335,7 +307,7 @@
 .content-b .head h1 {
     color: rgb(255, 0, 0);
     font-family: Inter;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     margin: 0px;
     letter-spacing: 0%;
@@ -354,9 +326,6 @@
     height: 260px;
     margin-bottom: 30px;
     margin: 70px auto;
-
-    /* display: flex;
-    flex-direction: column; */
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -365,7 +334,7 @@
 .holidays h3 {
     color: rgb(7, 2, 17);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 0%;
@@ -376,7 +345,7 @@
 
 .holidays h1 {
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: 900;
     line-height: 91px;
     letter-spacing: 0%;
@@ -388,7 +357,7 @@
 .holidays p {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: 0%;
@@ -400,7 +369,6 @@
     position: relative;
     width: 1320px;
     height: 662.07px;
-
     margin: 30px auto;
     display: flex;
     flex-direction: column;
@@ -418,22 +386,18 @@
     position: absolute;
     background: none;
     background: radial-gradient(#000000FF #FFFFFFFF)
-        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
     ;
-    /* opacity: 0.3; */
+    
     background: linear-gradient(#D98E37FF #D99641FF #D9A95AFF #D9B76CFF #D9BF77FF #D9C27AFF #D7BE77FF #CFB36FFF #C2A160FF #B1874CFF #9A6633FF #A06E39FF #AF844AFF #C7A866FF #D8BE73FF #D5B25FFF #D3A950FF #D1A548FF #D1A345FF #9A6633FF #9C6733FF #A46C34FF #B17534FF #C48136FF #D98E37FF #C07E35FF #AB7134FF #9E6933FF #9A6633FF);
 
 }
 
 .img-container .overlay-img-b {
-    /* position: absolute; */
     width: 305.69px;
     height: 305.69px;
     text-align: right;
     justify-content: right;
     margin-left: 974px;
-
-
 }
 
 .img-container .background-img {
@@ -447,13 +411,10 @@
     height: 1163px;
     margin: 30px auto;
 }
-
-.portfolio .portfolio-content {}
-
 .portfolio .portfolio-content>h3 {
     color: rgb(255, 0, 0);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 0%;
@@ -466,7 +427,7 @@
 .portfolio .portfolio-content h1 {
     color: rgb(7, 2, 17);
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 60px;
     letter-spacing: 0%;
@@ -478,7 +439,7 @@
 .portfolio .portfolio-content p {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0%;
@@ -492,14 +453,10 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-
-
-
 }
 
 .portfolio-images>.images-a {
     display: flex;
-
     gap: 24px;
     border: 2px dashed wheat;
 }
@@ -517,7 +474,6 @@
     margin: 50px auto;
     text-align: center;
     border-radius: 16px;
-
     background: rgba(255, 0, 0, 0.05);
 }
 .subscribe .content-container{
@@ -530,14 +486,12 @@
     border: 2px dashed wheat;
     margin-top: 30px;
     margin: 0px
-
 }
 
 .subscribe h1 {
-
     color: rgb(7, 2, 17);
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 60px;
     letter-spacing: 0%;
@@ -548,7 +502,7 @@
 .subscribe p {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0%;
@@ -573,11 +527,9 @@
 .subscribe .button-a {
     width: 648px;
     height: 72px;
-
     color: rgba(7, 2, 17, 0.3);
-
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0%;
@@ -592,10 +544,9 @@
 .subscribe .button-b {
     width: 210px;
     height: 72px;
-    /* margin-right: 200px; */
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0%;
@@ -604,7 +555,6 @@
     border-radius: 0px 50px 50px 0px;
     border: none;
     background: rgb(255, 0, 0);
-    /* position: absolute; */
 }
 
 /* footer-section */
@@ -624,30 +574,27 @@ footer {
 .footer-top .footer-left p {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
     margin-top: 40px;
-
 }
 
 .footer-top .footer-right p {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
-
 }
 
 .footer-top .footer-right img {
     width: 24px;
     height: 24px;
-
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -659,7 +606,6 @@ footer .icon {
     align-items: center;
     justify-content: center;
     margin: 160px auto 80px;
-
 }
 
 footer .icon img {
@@ -671,10 +617,247 @@ footer .footer-bottom {
     justify-content: space-around;
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 100px;
+}
+@media (max-width: 576px) {
+    .bg-head {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .bg-head h1 {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+
+    .hero {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+    .hero-img {
+        width: auto;
+        height: auto;}
+
+    .mid-night {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .mid-night-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mid-night-a {
+        margin-left: 0;
+    }
+
+    .mid-night-b img {
+        width: 100%;
+        height: auto;
+    }
+
+    .comming-soon {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .join {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .join .place {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .holidays {
+        width: auto;
+        height: auto;
+    }
+    .discount .img-container {
+        width: auto;
+        height: auto;
+    }   
+    .img-container .overlay-y {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-container .overlay-img-b {
+        width: 200px; /* Smaller size */
+        height: 200px;
+        margin: 0 auto; /* Center align for small devices */
+        margin-top: 500px;
+        justify-content: center;
+        text-align: center;
+    }
+    .img-container .background-img {
+        width: auto;
+        height: auto;
+    }
+    .portfolio .portfolio-images {
+        gap: 16px; /* Reduce gap for small screens */
+    }
+
+    .portfolio-images>.images-a,
+    .portfolio-images>.images-b {
+        flex-direction: column; /* Stack images vertically */
+        gap: 16px; /* Adjust spacing */
+        align-items: center; /* Center images */
+    }
+    .portfolio{
+        width: auto;
+        height: auto;
+    }
+    .subscribe {
+        width: auto;
+        height: auto;
+    }
+    .subscribe .button-container {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    footer{
+        width: auto;
+        height: auto;
+    }
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+    .bg-head {
+        width: 90%;
+        height: auto;
+    }
+
+    .hero {
+        width: 90%;
+        height: auto;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .mid-night {
+        width: 90%;
+        height: auto;
+    }
+
+    .mid-night-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mid-night-a {
+        text-align: center;
+    }
+
+    .mid-night-b img {
+        width: 70%;
+        height: auto;
+    }
+
+    .comming-soon {
+        width: auto;
+        height: auto;
+        margin: 0px auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .join {
+        width: 90%;
+        height: auto;
+    }
+
+    .img-container .overlay-y {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+
+    .portfolio {
+        width: 90%;
+    }
+
+    .portfolio .portfolio-content {
+        text-align: center;
+    }
+
+    .portfolio-images>.images-a,
+    .portfolio-images>.images-b {
+        /* flex-direction: column;
+        gap: 10px; */
+
+        flex-wrap: wrap; /* Allow items to wrap */
+        justify-content: center; /* Center items */
+        gap: 20px;
+    }
+    .portfolio .portfolio-images {
+        gap: 20px; /* Slightly reduce gap */
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (min-width: 993px) {
+    .bg-head {
+        width: 1320px;
+        height: 600px;
+    }
+
+    .hero {
+        width: 802.9px;
+        height: 806px;
+    }
+
+    .mid-night {
+        width: 1320px;
+        height: 600px;
+    }
+
+    .comming-soon {
+        width: 1320px;
+    }
+
+    .portfolio {
+        width: 1320px;
+    }
 }
